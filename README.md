@@ -14,6 +14,7 @@ python hw1.py
 Input:  `hw1/HW1.txt`
 Output: `hw1/HW1_ans.txt`
 
+
 ## HW2 Python practice II
 ```
 cd hw2
@@ -24,3 +25,13 @@ Input:  `hw2/HW2_clinvar.txt`
 Output:
 * `hw2/hw2_clnsig.png`
 * `hw2/hw2_rs.tsv`
+
+
+## HW2_2 Bash practice
+```
+cd hw2_2
+./hw2_2.sh
+```
+
+Input:  `/localpath/a_very_big_trash.tar.gz`
+Output: `hw2_2/answer/home.txt`, `hw2_2/answer/location.txt`
