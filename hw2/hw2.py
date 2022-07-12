@@ -9,7 +9,7 @@ import plotly.express as px
 data_source = "https://drive.google.com/file/d/1_p6SpoOPusGkKaG4sbyVoypvQFY0kDDU/view?usp=sharing"  # noqa
 data_file = "HW2_clinvar.vcf.gz"
 output_file1 = "hw2_clnsig.png"
-output_file2 = "hw2_rs.txt"
+output_file2 = "hw2_rs.tsv"
 
 
 # main

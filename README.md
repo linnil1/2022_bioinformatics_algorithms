@@ -1,5 +1,10 @@
 # 2022 Bioinformatics Algorithms
 
+Setup (make sure you have python3.10)
+```
+pip install -r requirements.txt
+```
+
 ## HW1 Python practice
 ```
 cd hw1
@@ -8,3 +13,14 @@ python hw1.py
 
 Input:  `hw1/HW1.txt`
 Output: `hw1/HW1_ans.txt`
+
+## HW2 Python practice II
+```
+cd hw2
+python hw2.py
+```
+
+Input:  `hw2/HW2_clinvar.txt`
+Output:
+* `hw2/hw2_clnsig.png`
+* `hw2/hw2_rs.tsv`
