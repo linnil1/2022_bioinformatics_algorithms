@@ -9,6 +9,7 @@ def samToBam(name):
               f"samtools sort -@{threads} {name}.sam -o {name}.bam")
     runDocker("quay.io/biocontainers/samtools:1.15.1--h1170115_0",
               f"samtools index            {name}.bam")
+    runShell(f"rm {name}.sam")
 
 
 @nt

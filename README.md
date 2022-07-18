@@ -35,3 +35,8 @@ cd hw2_2
 
 Input:  `/localpath/a_very_big_trash.tar.gz`
 Output: `hw2_2/answer/home.txt`, `hw2_2/answer/location.txt`
+
+
+## Week3 Blast and read mapping
+
+see [hw3/README.md](https://github.com/linnil1/2022_bioinformatics_algorithms/tree/main/hw3)
