@@ -39,4 +39,13 @@ Output: `hw2_2/answer/home.txt`, `hw2_2/answer/location.txt`
 
 ## Week3 Blast and read mapping
 
-see [hw3/README.md](https://github.com/linnil1/2022_bioinformatics_algorithms/tree/main/hw3)
+see [week3/README.md](https://github.com/linnil1/2022_bioinformatics_algorithms/tree/main/week3)
+
+## HW3 Blast
+```
+cd hw3
+python hw3.py
+```
+
+input:  `hw3/rat_sample.fa`
+Output: `hw3/rat_sample_merge.stat.csv`

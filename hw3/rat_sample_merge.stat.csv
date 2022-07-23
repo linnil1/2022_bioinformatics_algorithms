@@ -1,0 +1,10 @@
+query_gene,chrom_ID,insert_size,transcript_ID
+GeneB,NC_005101.4,1353,
+GeneC,NC_005101.4,6625,
+GeneE,NC_005111.4,809,
+GeneA,,355,NM_134326.2
+GeneB,,497,NM_012561.2
+GeneB,,497,XM_006231953.3
+GeneB,,497,XM_006231954.3
+GeneC,,493,NM_022403.2
+GeneE,,343,NM_031144.3

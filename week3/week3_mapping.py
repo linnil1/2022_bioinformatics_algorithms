@@ -172,4 +172,7 @@ if __name__ == "__main__":
     real    70m17.174s
     user    1m24.816s
     sys     0m44.045s
+
+    # no downloading and building index
+    real    24m11.334s
     """
