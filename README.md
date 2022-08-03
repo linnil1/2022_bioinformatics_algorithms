@@ -49,3 +49,16 @@ python hw3.py
 
 input:  `hw3/rat_sample.fa`
 Output: `hw3/rat_sample_merge.stat.csv`
+
+
+## Week5: Graph genome
+
+see [week5/README.md](https://github.com/linnil1/2022_bioinformatics_algorithms/tree/main/week5)
+
+```
+cd week5
+python week5_graph.py
+```
+
+input:  `NA`
+Output: `week5/c3.sample.c3_vg.sort.gam.gai` `week5/c3.sample.c3_hisat.bam`
