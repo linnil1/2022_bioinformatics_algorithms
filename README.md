@@ -51,6 +51,19 @@ input:  `hw3/rat_sample.fa`
 Output: `hw3/rat_sample_merge.stat.csv`
 
 
+## HW5: Read Sam/Bam format
+
+Extract the phased genotype of specific position from sam file.
+
+```
+cd hw5
+python hw5.py
+```
+
+input:  `hw5.sam` (Not provided), `ITGA2B.vcf`
+Output: `hw5.ITGA2B.count.tsv` `hw5.chr17.*.strange_case.bam`
+
+
 ## Week5: Graph genome
 
 see [week5/README.md](https://github.com/linnil1/2022_bioinformatics_algorithms/tree/main/week5)

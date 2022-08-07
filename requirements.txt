@@ -4,3 +4,4 @@ psutil
 git+https://github.com/linnil1/name-based-pipeline
 pandas
 biopython
+pysam
