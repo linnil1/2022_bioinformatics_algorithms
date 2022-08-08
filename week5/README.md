@@ -1,4 +1,14 @@
 # Graph Genome Directory
+
+* Download HLA data
+* Extract specific star alleles
+* Generate simulated fastq
+* Read mapping via HISAT2
+* Read mapping via VG
+* Visualize by sequenceTubeMap
+
+
+## Output:
 ```
 alignment_v3470
 art_bin_MountRainier
