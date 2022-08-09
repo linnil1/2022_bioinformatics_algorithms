@@ -51,9 +51,24 @@ python hw3.py
 input:  `hw3/rat_sample.fa`
 Output: `hw3/rat_sample_merge.stat.csv`
 
+
 ## Week4: Metagenomics
 
 see [week4/README.md](https://github.com/linnil1/2022_bioinformatics_algorithms/tree/main/week4)
+
+
+## HW4: N50 and Metagenomics Result Interpretation
+
+```
+cd hw4
+# N50 practice
+python hw4_1.py > hw4.1.txt
+# Parse Result of https://github.com/metagenome-atlas/Tutorial.git and answer questions
+python hw4_2.py > hw4.2.txt
+```
+
+input: `HW4.1.txt` `Tutorial/Example`
+Output: `hw4.1.txt` `HW4.2.txt` `hw4.2.png`
 
 
 ## HW5: Read Sam/Bam format

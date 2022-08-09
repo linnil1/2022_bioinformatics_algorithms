@@ -1,0 +1,59 @@
+
+Hint
+# start your jupyter notebook in docker
+dk -p 8888:8888 quay.io/biocontainers/metagenome-atlas:2.11.0--pyhdfd78af_0  bash
+mamba env create  -f Tutorial/Python/condaenv.yml -p conda_env
+conda init bash
+jupyter lab --allow-root --ip 0.0.0.0
+    
+
+Q1
+Quantification is based on mapping the reads to the genomes using bbmap.
+Do you think the mapping rate is good? what could be done to improve it?
+  Mean mapping rate: 0.5748791655105142
+  Altas map reads to contigs by bbmap written in `build_db_genomes` `align_reads_to_MAGs
+  Maybe try BWA or Bowtie2 or HISAT2 for better performance (for short reads)
+    
+
+Q2
+We use the median coverage over the genomes to calculate the relative abundance.
+What is the most abundant species in these metagenomes?
+  Just group the relative abundance by species.
+  And the species with maximum abundance is
+species      Akkermansia muciniphila
+abundance                   0.155795
+Name: 0, dtype: object
+    
+
+Q3
+What are conserved functions among the genomes?
+  I assume step_coverage higher -> more conserved
+                                 module_name  step_coverage
+module                                                     
+M00178                    Ribosome, bacteria            1.0
+M00179                     Ribosome, archaea            1.0
+M00183              RNA polymerase, bacteria            1.0
+M00260  DNA polymerase III complex, bacteria            1.0
+    
+
+Q4
+Do you see trends (of conserved functions) by phylum?
+  I assume conserved functions is the module that step_coverage > 0.8
+  Then, I count the number of conserved functions group by phylum
+phylum
+Actinobacteriota     25.00
+Bacteroidota         40.25
+Deferribacterota     24.00
+Desulfobacterota     41.00
+Firmicutes           29.50
+Firmicutes_A         31.75
+Proteobacteria        9.00
+Verrucomicrobiota    48.00
+dtype: float64
+
+Q5
+Can you distinguish genomes from the Firmicutes_A and Firmicutes phyla?
+  I run PCA on the step_coverage as MAG's features.
+  See PCA result in hw4.2.png
+  Most of Firmicutes can sepatated from Firmicutes_A, except MAG17.
+    
