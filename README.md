@@ -53,6 +53,8 @@ Output: `hw3/rat_sample_merge.stat.csv`
 
 ## Week4: Metagenomics
 
+see [week4/README.md](https://github.com/linnil1/2022_bioinformatics_algorithms/tree/main/week4)
+
 
 ## HW5: Read Sam/Bam format
 
