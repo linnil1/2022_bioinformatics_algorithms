@@ -95,3 +95,8 @@ python week5_graph.py
 
 input:  `NA`
 Output: `week5/c3.sample.c3_vg.sort.gam.gai` `week5/c3.sample.c3_hisat.bam`
+
+
+## Week6: Protein structure prediction
+
+see [week6/README.md](https://github.com/linnil1/2022_bioinformatics_algorithms/tree/main/week6)
