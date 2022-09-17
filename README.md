@@ -43,6 +43,13 @@ Output: `hw2_2/answer/home.txt`, `hw2_2/answer/location.txt`
 see [week3/README.md](https://github.com/linnil1/2022_bioinformatics_algorithms/tree/main/week3)
 
 ## HW3: Read Blast Result
+
+Some pair of sequences are mapped on the reference by blast,
+
+and then calculate the insertion size of the pair.
+
+Some pair should be removed if the mapping result doesn't meet some criteria.
+
 ```
 cd hw3
 python hw3.py
@@ -100,3 +107,7 @@ Output: `week5/c3.sample.c3_vg.sort.gam.gai` `week5/c3.sample.c3_hisat.bam`
 ## Week6: Protein structure prediction
 
 see [week6/README.md](https://github.com/linnil1/2022_bioinformatics_algorithms/tree/main/week6)
+
+## HW6: Protein structure prediction
+
+see [hw6/README.md](https://github.com/linnil1/2022_bioinformatics_algorithms/tree/main/hw6)
