@@ -1,5 +1,7 @@
+import io
 import os
 import gdown
+import gzip
 import pandas as pd
 import itertools
 from collections import Counter
@@ -18,8 +20,17 @@ if __name__ == "__main__":
         print("Download vcf")
         gdown.download(data_source, data_file, fuzzy=True)
 
+    # read tsv
+    # note read_csv(comment="#") will ignore the remaining text after #
+    # even # is not at the header
     print(f"read {data_file}")
-    df = pd.read_csv(data_file, sep="\t", compression='gzip', comment="#", header=None)
+    csv_buffer = io.StringIO()
+    with gzip.open(data_file, "rt") as f:
+        for line in f:
+            if not line.startswith("#"):
+                csv_buffer.write(line)
+    csv_buffer.seek(0)
+    df = pd.read_csv(csv_buffer, sep="\t", header=None)
     df.columns = ["CHROM", "POS", "ID", "REF", "ALT", "QUAL", "FILTER", "INFO"]
 
     print("INFO to table")
