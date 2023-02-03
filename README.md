@@ -111,3 +111,7 @@ see [week6/README.md](https://github.com/linnil1/2022_bioinformatics_algorithms/
 ## HW6: Protein structure prediction
 
 see [hw6/README.md](https://github.com/linnil1/2022_bioinformatics_algorithms/tree/main/hw6)
+
+## Final: Final exam (coding)
+
+see [final/README.md](https://github.com/linnil1/2022_bioinformatics_algorithms/tree/main/final)
